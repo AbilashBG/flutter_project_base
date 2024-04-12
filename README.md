@@ -1,16 +1,17 @@
-# flutter_base
 
-A new Flutter project.
+# mvvmbasic
 
-## Getting Started
+A Base For Flutter project With GetX and Provider.
 
-This project is a starting point for a Flutter application.
+Clone the project / download and create another repository and push there don't push on base project
+You have change app name and package as u need,
+pre set with firebase you may remove / replace the firebase json.
 
-A few resources to get you started if this is your first Flutter project:
+Easy Api call and error handling, Need on screen error/refresh use globalWidgetBuilder which can process error and widget it's self.
+use localprovider for navigation , can get localprovider any screen by Get.find() there we have navigation functions, all navigations must should done by getx only to manage state.
+All static strings must be save in  lib/utils/i18n/en_US.json. its default languge use string from i18n.
+Must use const keyword if widget/value is const.
+here you have a model api call on authprovider and authrepo , like screen->provider->repository->apihelper this is flow for call api 
+ 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
